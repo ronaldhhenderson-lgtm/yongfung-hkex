@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Restricted Access — YongFung Digital Energy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body.auth-body {
+      background: var(--navy-900);
+      color: var(--white);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Inter', sans-serif;
+    }
+    .auth-card {
+      background: var(--paper);
+      color: var(--navy-900);
+      max-width: 460px;
+      width: 100%;
+      padding: 3rem 2.5rem;
+      border-top: 4px solid var(--gold-500);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+    .auth-mark {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: var(--navy-900);
+      letter-spacing: 0.04em;
+      margin-bottom: 0.3rem;
+    }
+    .auth-mark span { color: var(--gold-500); }
+    .auth-sub {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      color: var(--ink-600, #555);
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .auth-card h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0 0 0.6rem;
+      color: var(--navy-900);
+    }
+    .auth-card p.lead {
+      font-size: 0.92rem;
+      color: var(--ink-600, #444);
+      margin: 0 0 1.8rem;
+      line-height: 1.5;
+    }
+    .auth-field {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--navy-900);
+      margin-bottom: 0.5rem;
+    }
+    .auth-card input[type="password"] {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      font-size: 1rem;
+      border: 1px solid var(--ink-200, #d0d0d0);
+      background: var(--white);
+      color: var(--navy-900);
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.08em;
+      box-sizing: border-box;
+    }
+    .auth-card input[type="password"]:focus {
+      outline: none;
+      border-color: var(--gold-500);
+      box-shadow: 0 0 0 3px rgba(201, 169, 97, 0.2);
+    }
+    .auth-card button {
+      width: 100%;
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: var(--navy-900);
+      color: var(--white);
+      border: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .auth-card button:hover { background: var(--gold-500); color: var(--navy-900); }
+    .auth-err {
+      min-height: 1.4em;
+      margin-top: 1rem;
+      color: #b42222;
+      font-size: 0.85rem;
+    }
+    .auth-meta {
+      border-top: 1px solid var(--ink-200, #e0e0e0);
+      margin-top: 2rem;
+      padding-top: 1.2rem;
+      font-size: 0.75rem;
+      color: var(--ink-600, #666);
+      line-height: 1.55;
+    }
+    .auth-meta strong { color: var(--navy-900); }
+  </style>
+</head>
+<body class="auth-body">
+  <div class="auth-card">
+    <div class="auth-mark">Yong<span>Fung</span></div>
+    <div class="auth-sub">Prospective HKEX Issuer · Restricted</div>
+
+    <h1>Restricted Access</h1>
+    <p class="lead">This site is provided for authorised recipients only. Please enter the access password you were issued.</p>
+
+    <form id="login-form" autocomplete="off">
+      <label class="auth-field" for="login-pw">Access Password</label>
+      <input type="password" id="login-pw" name="login-pw" autocomplete="current-password" autofocus required>
+      <button type="submit">Enter Site</button>
+      <div class="auth-err" id="login-err" role="alert" aria-live="polite"></div>
+    </form>
+
+    <div class="auth-meta">
+      <strong>Two access tiers</strong> are available — contact your sponsor for renewed credentials if your password has expired.<br>
+      General-access password expiry: <strong id="login-exp">—</strong><br><br>
+      <em>For information purposes only. No listing application has yet been submitted.</em>
+    </div>
+  </div>
+
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>

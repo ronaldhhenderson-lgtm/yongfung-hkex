@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Technology — YongFung Digital Energy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=Noto+Serif+TC:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/auth.js"></script>
+</head>
+<body class="lang-en">
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="announce">
+    <strong data-i18n="announce.label">Notice</strong><span data-i18n="announce">For information purposes only.</span>
+  </div>
+
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-mark">Y F</div>
+        <div class="brand-text">
+          <span class="name" data-i18n="brand.name">YongFung Digital Energy</span>
+          <span class="sub" data-i18n="brand.sub">PROSPECTIVE HKEX ISSUER</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+        <li><a href="solutions.html" data-i18n="nav.solutions">Solutions</a></li>
+        <li><a href="technology.html" class="active" data-i18n="nav.technology">Technology</a></li>
+        <li><a href="investors.html" data-i18n="nav.investors">Investors</a></li>
+      </ul>
+      <div class="nav-lang" role="group" aria-label="Language">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="zh">简</button>
+        <button data-lang="tc">繁</button>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Sub-hero -->
+    <section class="sub-hero">
+      <div class="container">
+        <span class="eyebrow" data-i18n="tech.hero.eyebrow">TECHNOLOGY ADVANTAGES</span>
+        <h1 data-i18n="tech.hero.title">Proprietary core technologies across the storage value chain.</h1>
+        <p class="lead" data-i18n="tech.hero.lead">From cell management to grid-forming control, YongFung has developed a portfolio of differentiated technologies that deliver measurable advantages in safety, efficiency and deployment speed.</p>
+      </div>
+    </section>
+
+    <!-- T1 — All-in-One -->
+    <section>
+      <div class="container">
+        <div class="prose-2col">
+          <h2 data-i18n="tech.t1.t">All-in-One Distributed Storage</h2>
+          <div>
+            <p data-i18n="tech.t1.d">Integration of LFP cells, BMS, EMS, high-efficiency liquid-cooling thermal management, fire-safety systems, modular PCS and remote monitoring into a single standardised outdoor cabinet.</p>
+            <ul class="list-check" style="margin-top:1.2rem; padding-left:0; list-style:none;">
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t1.b1">Three-phase four-wire direct low-voltage grid connection, eliminating transformers</span>
+              </li>
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t1.b2">Advanced DPWM / SVPWM modulation for loss optimisation</span>
+              </li>
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t1.b3">Edge intelligence gateway — sub-10 µs control latency across 65,536 nodes</span>
+              </li>
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t1.b4">First in China to complete AI-based distributed-storage warning deployment</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- T2 — EtherCAT + T3 — VSG side by side -->
+    <section style="background:var(--white); border-top:1px solid var(--ink-200); border-bottom:1px solid var(--ink-200);">
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="feature-card">
+            <div class="icon-box">02</div>
+            <h3 data-i18n="tech.t2.t">Real-Time EtherCAT Bus Control</h3>
+            <p data-i18n="tech.t2.d">Shortens system response time and improves frequency-regulation K-value. A single controller aggregates 16 PCS units through an EtherCAT real-time bus and consolidates battery, switchgear, transformer, fire-safety and auxiliary data upstream to the EMS.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box">03</div>
+            <h3 data-i18n="tech.t3.t">Grid-Forming (VSG) Converter</h3>
+            <p data-i18n="tech.t3.d">County-level rooftop PV typically connects at weak points in rural feeder networks, producing high-impedance grid conditions. Configuring the converter as grid-forming with Virtual Synchronous Generator (VSG) technology fundamentally solves weak-grid stability.</p>
+            <ul style="margin-top:1rem; padding-left:1.2em;">
+              <li data-i18n="tech.t3.b1">Virtual synchronous machine control — frequency and voltage support</li>
+              <li data-i18n="tech.t3.b2">Dual-mode on-line switching between grid-following and grid-forming</li>
+              <li data-i18n="tech.t3.b3">Multi-unit off-grid parallel operation; single-unit IEC 61850 / EtherCAT carrier-level communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- T4 — Protocol Converter -->
+    <section>
+      <div class="container">
+        <div class="prose-2col">
+          <h2 data-i18n="tech.t4.t">PV / Storage Protocol Converter</h2>
+          <div>
+            <p data-i18n="tech.t4.d">The terminal communicates upstream over 4G and downstream over HPLC / RS-485, using the unified 698.45 protocol to address PV protocol converters. The converter parses 698.45 messages into Modbus commands understood by legacy inverters — and vice versa — enabling the State Grid "PV Four Capabilities" soft-control mandate for distributed solar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Architectural comparison — String vs Centralised -->
+    <section style="background:var(--navy-900); color:var(--white);">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" style="color:var(--gold-400);" data-i18n="tech.diff.title">String vs. Centralised — our architectural choice</span>
+          <h2 style="color:var(--white);" data-i18n="tech.diff.title">String vs. Centralised — our architectural choice</h2>
+          <hr class="divider-gold">
+          <p class="lead" style="color:var(--ink-200);" data-i18n="tech.diff.desc">YongFung favours the string architecture over traditional centralised solutions for 200 kW and below, delivering measurable improvements across four dimensions.</p>
+        </div>
+        <div style="background:var(--white); color:var(--navy-900); padding:2rem; border-top:3px solid var(--gold-500);">
+          <table class="data" style="width:100%;">
+            <thead>
+              <tr>
+                <th data-i18n="tech.diff.col1">Dimension</th>
+                <th data-i18n="tech.diff.col2">Centralised</th>
+                <th data-i18n="tech.diff.col3">YongFung String</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong data-i18n="tech.diff.r1.a">System efficiency</strong></td>
+                <td data-i18n="tech.diff.r1.b">Cluster imbalance reduces usable capacity</td>
+                <td data-i18n="tech.diff.r1.c">Per-cluster management, old/new cell mixing supported</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="tech.diff.r2.a">Safety</strong></td>
+                <td data-i18n="tech.diff.r2.b">DC arc-flash risk from HV parallel busing</td>
+                <td data-i18n="tech.diff.r2.c">Zero DC arc-flash risk (no DC combining)</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="tech.diff.r3.a">Reliability</strong></td>
+                <td data-i18n="tech.diff.r3.b">Single-PCS failure shuts down the entire system</td>
+                <td data-i18n="tech.diff.r3.c">Redundant modular PCS — single-unit failure isolated</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="tech.diff.r4.a">O&amp;M convenience</strong></td>
+                <td data-i18n="tech.diff.r4.b">Centralised PCS — long replacement downtime</td>
+                <td data-i18n="tech.diff.r4.c">Modular PCS — fast swap, whole-cabinet swap optional</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="tech.diff.r5.a">Deployment economics</strong></td>
+                <td data-i18n="tech.diff.r5.b">Custom civil works, transformer rooms, long commissioning</td>
+                <td data-i18n="tech.diff.r5.c">Pre-integrated outdoor cabinet — ≤ 7 days from delivery to grid-connection</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="tech.diff.r6.a">Scalability</strong></td>
+                <td data-i18n="tech.diff.r6.b">Fixed-capacity architecture — difficult to expand</td>
+                <td data-i18n="tech.diff.r6.c">Cabinet-level stacking, linear scale from 100 kWh to multi-MWh</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- T5 — AI Safety -->
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="tech.t5.eyebrow">SAFETY INTELLIGENCE</span>
+          <h2 data-i18n="tech.t5.t">AI-Based Early-Warning &amp; Fire-Safety Architecture</h2>
+          <hr class="divider-gold">
+          <p class="lead" data-i18n="tech.t5.lead">Multi-layer protection combining cell-level sensing, edge AI inference and active fire suppression — deployed in China's first AI-based distributed-storage warning system.</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="feature-card">
+            <div class="icon-box">01</div>
+            <h3 data-i18n="tech.t5.a.t">Cell-Level Sensing</h3>
+            <p data-i18n="tech.t5.a.d">Per-cell voltage, current and temperature telemetry at 1 Hz; internal impedance estimation for early degradation detection.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box">02</div>
+            <h3 data-i18n="tech.t5.b.t">Edge AI Inference</h3>
+            <p data-i18n="tech.t5.b.d">On-gateway neural models score thermal-runaway precursors ahead of conventional threshold triggers, escalating alerts to EMS and fire-safety systems.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon-box">03</div>
+            <h3 data-i18n="tech.t5.c.t">Active Suppression</h3>
+            <p data-i18n="tech.t5.c.d">Pack-level perfluorohexanone injection with directional venting and compartmentalised steel cabinet construction to isolate single-pack events.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- T6 — Certifications & Standards -->
+    <section style="background:var(--white); border-top:1px solid var(--ink-200); border-bottom:1px solid var(--ink-200);">
+      <div class="container">
+        <div class="prose-2col">
+          <h2 data-i18n="tech.t6.t">Certifications, Standards &amp; R&amp;D</h2>
+          <div>
+            <p data-i18n="tech.t6.d">Proprietary technology is backed by an accumulating patent portfolio and alignment with the standards framework required by grid operators, insurance underwriters and listing-level due diligence.</p>
+            <ul class="list-check" style="margin-top:1.2rem; padding-left:0; list-style:none;">
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t6.b1">IEC 61850 substation automation for grid-connected PCS control and telemetry</span>
+              </li>
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t6.b2">GB/T 36276, GB/T 34131, UL 9540A conformance for battery and system safety</span>
+              </li>
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t6.b3">State Grid "PV Four Capabilities" soft-control mandate compliance via 698.45 protocol converter</span>
+              </li>
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t6.b4">ISO 27001-aligned cybersecurity controls for EMS cloud platform and remote O&amp;M gateway</span>
+              </li>
+              <li style="padding-left:1.5em; position:relative; margin-bottom:.6rem;">
+                <span style="position:absolute; left:0; color:var(--gold-500);">◆</span>
+                <span data-i18n="tech.t6.b5">R&amp;D centres in Shenzhen, Xi'an and Changde with 100+ engineers and accumulating invention-patent filings</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <div class="foot-brand">Yong<span>Fung</span> Digital Energy</div>
+          <p class="foot-desc" data-i18n="foot.desc">YongFung Digital Energy is a new-energy storage technology company.</p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.nav">Site Navigation</h4>
+          <ul>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+            <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+            <li><a href="solutions.html" data-i18n="nav.solutions">Solutions</a></li>
+            <li><a href="technology.html" data-i18n="nav.technology">Technology</a></li>
+            <li><a href="investors.html" data-i18n="nav.investors">Investors</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="foot.corp">Corporate</h4>
+          <ul>
+            <li><strong data-i18n="foot.headquarters">Headquarters</strong></li>
+            <li><span data-i18n="foot.address">Longgang, Shenzhen, PRC</span></li>
+            <li style="margin-top:1rem;"><strong data-i18n="foot.rd">R&amp;D Centres</strong></li>
+            <li><span data-i18n="foot.rd.loc">Shenzhen · Xi'an · Changde</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="foot.ir">Investor Information</h4>
+          <ul>
+            <li><a href="investors.html" data-i18n="foot.governance">Corporate Governance</a></li>
+            <li><a href="investors.html" data-i18n="foot.announcements">Announcements</a></li>
+            <li><a href="investors.html" data-i18n="foot.prospectus">Prospectus (upon submission)</a></li>
+            <li><a href="investors.html#contact" data-i18n="foot.contact">Contact IR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-legal">
+        <span data-i18n="foot.copyright">© 2026 YongFung Digital Energy Technology (Shenzhen) Co., Ltd.</span>
+        <span class="disclaimer" data-i18n="foot.disclaimer">The contents of this website are for general information only.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+</body>
+</html>
