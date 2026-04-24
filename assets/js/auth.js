@@ -1,5 +1,5 @@
 /* ===================================================================
- * YongFung Digital Energy — Client-side access gate
+ * RongFung Digital Energy — Client-side access gate
  * -------------------------------------------------------------------
  * Two-tier auth. Passwords are stored as SHA-256 hashes only.
  * Sessions persist via sessionStorage (cleared when browser closes).

@@ -1,11 +1,11 @@
 /* =================================================================
-   YongFung Digital Energy — Trilingual i18n
+   RongFung Digital Energy — Trilingual i18n
    EN / zh-CN (Simplified) / zh-TC (Traditional)
    ================================================================= */
 
 const I18N = {
   /* ----- Shared: nav, footer, global ----- */
-  'brand.name':        { en: 'YongFung Digital Energy',           zh: '荣丰数字能源',                 tc: '榮豐數字能源' },
+  'brand.name':        { en: 'RongFung Digital Energy',           zh: '荣丰数字能源',                 tc: '榮豐數字能源' },
   'brand.full':        { en: 'Rongfeng Digital Energy Technology (Shenzhen) Co., Ltd.',
                           zh: '荣丰数字能源科技（深圳）有限公司',
                           tc: '榮豐數字能源科技（深圳）有限公司' },
@@ -27,7 +27,7 @@ const I18N = {
   'foot.nav':          { en: 'Site Navigation',                    zh: '站点导航',                     tc: '站點導航' },
   'foot.corp':         { en: 'Corporate',                          zh: '公司信息',                     tc: '公司信息' },
   'foot.ir':           { en: 'Investor Information',               zh: '投资者信息',                   tc: '投資者信息' },
-  'foot.desc':         { en: 'YongFung Digital Energy is a new-energy storage technology company specializing in source-grid-side storage, C&I storage, and emergency portable storage solutions.',
+  'foot.desc':         { en: 'RongFung Digital Energy is a new-energy storage technology company specializing in source-grid-side storage, C&I storage, and emergency portable storage solutions.',
                           zh: '荣丰数字能源是一家新型能源储能科技企业，专注源网侧储能、工商业储能及应急便携储能一站式解决方案。',
                           tc: '榮豐數字能源是一家新型能源儲能科技企業，專注源網側儲能、工商業儲能及應急便攜儲能一站式解決方案。' },
   'foot.headquarters': { en: 'Headquarters',                       zh: '总部',                         tc: '總部' },
@@ -42,7 +42,7 @@ const I18N = {
                           zh: '媒体中心',
                           tc: '媒體中心' },
   'foot.contact':      { en: 'Contact IR',                         zh: '联系投资者关系',               tc: '聯繫投資者關係' },
-  'foot.copyright':    { en: '© 2026 YongFung Digital Energy Technology (Shenzhen) Co., Ltd. All rights reserved.',
+  'foot.copyright':    { en: '© 2026 RongFung Digital Energy Technology (Shenzhen) Co., Ltd. All rights reserved.',
                           zh: '© 2026 荣丰数字能源科技（深圳）有限公司 版权所有',
                           tc: '© 2026 榮豐數字能源科技（深圳）有限公司 版權所有' },
   'foot.disclaimer':   { en: 'The contents of this website are for general information only and do not constitute investment, legal, or tax advice. Forward-looking statements are subject to risks and uncertainties.',
@@ -56,7 +56,7 @@ const I18N = {
   'home.title':        { en: 'Engineering the backbone of China\'s new power system.',
                           zh: '打造中国新型电力系统的能量中枢',
                           tc: '打造中國新型電力系統的能量中樞' },
-  'home.lead':         { en: 'YongFung Digital Energy delivers end-to-end energy-storage solutions across source-grid-side, commercial & industrial, and emergency-portable markets — built on proprietary PCS, BMS, EMS, and grid-forming technologies.',
+  'home.lead':         { en: 'RongFung Digital Energy delivers end-to-end energy-storage solutions across source-grid-side, commercial & industrial, and emergency-portable markets — built on proprietary PCS, BMS, EMS, and grid-forming technologies.',
                           zh: '荣丰数字能源提供覆盖源网侧、工商业及应急便携储能的一站式解决方案，核心产品采用自主研发的储能变流器（PCS）、电池管理（BMS）、能量管理（EMS）与构网型技术。',
                           tc: '榮豐數字能源提供覆蓋源網側、工商業及應急便攜儲能的一站式解決方案，核心產品採用自主研發的儲能變流器（PCS）、電池管理（BMS）、能量管理（EMS）與構網型技術。' },
   'home.cta.ir':       { en: 'Investor Relations',                 zh: '投资者关系',                   tc: '投資者關係' },
@@ -125,15 +125,15 @@ const I18N = {
   'about.hero.title':  { en: 'A focused specialist in new-type energy storage.',
                           zh: '专注新型储能的细分专家',
                           tc: '專注新型儲能的細分專家' },
-  'about.hero.lead':   { en: 'Established in August 2022 in Shenzhen, YongFung Digital Energy is committed to the R&D, production and commercialisation of source-grid-side storage, large-scale C&I storage and emergency-portable storage products.',
+  'about.hero.lead':   { en: 'Established in August 2022 in Shenzhen, RongFung Digital Energy is committed to the R&D, production and commercialisation of source-grid-side storage, large-scale C&I storage and emergency-portable storage products.',
                           zh: '荣丰数字能源成立于2022年8月，总部位于深圳，致力于源网侧储能、大型工商业储能及应急备灾便携储能产品的研发、生产与销售。',
                           tc: '榮豐數字能源成立於2022年8月，總部位於深圳，致力於源網側儲能、大型工商業儲能及應急備災便攜儲能產品的研發、生產與銷售。' },
 
   'about.overview.title':{ en: 'Corporate Overview',               zh: '公司概况',                     tc: '公司概況' },
-  'about.overview.p1': { en: 'YongFung Digital Energy was established in August 2022 to provide end-to-end energy-storage solutions centred on source-grid-side storage, large-scale commercial and industrial storage, and emergency-portable storage products.',
+  'about.overview.p1': { en: 'RongFung Digital Energy was established in August 2022 to provide end-to-end energy-storage solutions centred on source-grid-side storage, large-scale commercial and industrial storage, and emergency-portable storage products.',
                           zh: '荣丰数字能源于2022年8月成立，致力于为客户提供源网侧储能、大型工商业储能及应急备灾便携储能产品的一站式解决方案。',
                           tc: '榮豐數字能源於2022年8月成立，致力於為客戶提供源網側儲能、大型工商業儲能及應急備災便攜儲能產品的一站式解決方案。' },
-  'about.overview.p2': { en: 'In May 2024 the Group established YongFung Xi\'an to address State Grid and China Southern Power Grid distribution pain-points, expanding into low-voltage grid-area storage systems, PV / storage protocol converters and grid-supporting converters.',
+  'about.overview.p2': { en: 'In May 2024 the Group established RongFung Xi\'an to address State Grid and China Southern Power Grid distribution pain-points, expanding into low-voltage grid-area storage systems, PV / storage protocol converters and grid-supporting converters.',
                           zh: '2024年5月，公司成立荣丰西安公司，面向国家电网、南方电网配电台区的痛点需求，拓展台区储能系统、光伏/储能规约转换器及电网支撑型变流器业务。',
                           tc: '2024年5月，公司成立榮豐西安公司，面向國家電網、南方電網配電台區的痛點需求，拓展台區儲能系統、光伏/儲能規約轉換器及電網支撐型變流器業務。' },
 
@@ -186,7 +186,7 @@ const I18N = {
 
   'about.timeline.title':{ en: 'Key Milestones',                   zh: '发展历程',                     tc: '發展歷程' },
   'about.tl.1.t':      { en: 'August 2022',                        zh: '2022年8月',                    tc: '2022年8月' },
-  'about.tl.1.d':      { en: 'Incorporation of YongFung Digital Energy Technology (Shenzhen) Co., Ltd.',
+  'about.tl.1.d':      { en: 'Incorporation of RongFung Digital Energy Technology (Shenzhen) Co., Ltd.',
                           zh: '荣丰数字能源科技（深圳）有限公司正式注册成立。',
                           tc: '榮豐數字能源科技（深圳）有限公司正式註冊成立。' },
   'about.tl.2.t':      { en: '2023',                               zh: '2023年',                       tc: '2023年' },
@@ -194,7 +194,7 @@ const I18N = {
                           zh: '推出1000V/1500V平台储能变流器及工商业一体机产品线。',
                           tc: '推出1000V/1500V平台儲能變流器及工商業一體機產品線。' },
   'about.tl.3.t':      { en: 'May 2024',                           zh: '2024年5月',                    tc: '2024年5月' },
-  'about.tl.3.d':      { en: 'Establishment of YongFung Xi\'an subsidiary to serve State Grid and China Southern Power Grid distribution needs.',
+  'about.tl.3.d':      { en: 'Establishment of RongFung Xi\'an subsidiary to serve State Grid and China Southern Power Grid distribution needs.',
                           zh: '成立荣丰西安公司，服务国家电网与南方电网配电台区业务。',
                           tc: '成立榮豐西安公司，服務國家電網與南方電網配電台區業務。' },
   'about.tl.4.t':      { en: '2025',                               zh: '2025年',                       tc: '2025年' },
@@ -211,7 +211,7 @@ const I18N = {
   'prod.hero.title':   { en: 'A comprehensive product family for every storage deployment.',
                           zh: '覆盖全部应用场景的完整产品族',
                           tc: '覆蓋全部應用場景的完整產品族' },
-  'prod.hero.lead':    { en: 'YongFung\'s portfolio is organised across four pillars, spanning photovoltaic electronics, energy-storage hardware, management systems and packaged energy-application solutions.',
+  'prod.hero.lead':    { en: 'RongFung\'s portfolio is organised across four pillars, spanning photovoltaic electronics, energy-storage hardware, management systems and packaged energy-application solutions.',
                           zh: '荣丰产品组合分为四大板块：光伏电子、储能硬件、管理系统与能源应用集成方案。',
                           tc: '榮豐產品組合分為四大板塊：光伏電子、儲能硬件、管理系統與能源應用集成方案。' },
 
@@ -290,7 +290,7 @@ const I18N = {
   'sol.newpower.p1':   { en: 'Building a new power system with renewables at its core is a central policy decision under China\'s dual-carbon goals, demanding coordinated adjustments in both the energy mix and the institutional framework of the power sector.',
                           zh: '构建以新能源为主体的新型电力系统，是"双碳"目标下国家对电力系统发展作出的最新重大决策，推动能源结构调整与电力体制改革同步深化。',
                           tc: '構建以新能源為主體的新型電力系統，是「雙碳」目標下國家對電力系統發展作出的最新重大決策，推動能源結構調整與電力體制改革同步深化。' },
-  'sol.newpower.p2':   { en: 'YongFung\'s integrated approach combines "green supply" with "green consumption", delivering solutions that serve both grid operators and industrial-park owners.',
+  'sol.newpower.p2':   { en: 'RongFung\'s integrated approach combines "green supply" with "green consumption", delivering solutions that serve both grid operators and industrial-park owners.',
                           zh: '荣丰以"绿色供能+绿色用能"双驱动模式，为电网运营商与园区业主提供高质量协同发展的综合方案。',
                           tc: '榮豐以「綠色供能+綠色用能」雙驅動模式，為電網運營商與園區業主提供高質量協同發展的綜合方案。' },
 
@@ -313,7 +313,7 @@ const I18N = {
   'sol.shared.adv3':   { en: 'Scale investment and O&M',           zh: '规模化投资与运维',             tc: '規模化投資與運維' },
 
   'sol.scenarios.title':{ en: 'Eleven System Functions',           zh: '十一大系统功能',               tc: '十一大系統功能' },
-  'sol.scenarios.desc':{ en: 'Every YongFung deployment supports the following core functional set:',
+  'sol.scenarios.desc':{ en: 'Every RongFung deployment supports the following core functional set:',
                           zh: '每一个荣丰部署方案均支持以下核心功能集：',
                           tc: '每一個榮豐部署方案均支持以下核心功能集：' },
   'sol.sc.1':          { en: 'Peak shaving / valley filling',      zh: '削峰填谷',                     tc: '削峰填谷' },
@@ -333,7 +333,7 @@ const I18N = {
   'tech.hero.title':   { en: 'Proprietary core technologies across the storage value chain.',
                           zh: '覆盖储能全产业链的自主核心技术',
                           tc: '覆蓋儲能全產業鏈的自主核心技術' },
-  'tech.hero.lead':    { en: 'From cell management to grid-forming control, YongFung has developed a portfolio of differentiated technologies that deliver measurable advantages in safety, efficiency and deployment speed.',
+  'tech.hero.lead':    { en: 'From cell management to grid-forming control, RongFung has developed a portfolio of differentiated technologies that deliver measurable advantages in safety, efficiency and deployment speed.',
                           zh: '从电池管理到构网型控制，荣丰自主研发了一系列差异化核心技术，在安全、效率及部署速度上形成显著优势。',
                           tc: '從電池管理到構網型控制，榮豐自主研發了一系列差異化核心技術，在安全、效率及部署速度上形成顯著優勢。' },
 
@@ -381,12 +381,12 @@ const I18N = {
   'tech.diff.title':   { en: 'String vs. Centralised — our architectural choice',
                           zh: '组串式 vs. 集中式 — 我们的架构选择',
                           tc: '組串式 vs. 集中式 — 我們的架構選擇' },
-  'tech.diff.desc':    { en: 'YongFung favours the string architecture over traditional centralised solutions for 200 kW and below, delivering measurable improvements across five dimensions.',
+  'tech.diff.desc':    { en: 'RongFung favours the string architecture over traditional centralised solutions for 200 kW and below, delivering measurable improvements across five dimensions.',
                           zh: '200kW及以下场景，荣丰选择组串式架构而非传统集中式解决方案，在五个维度上带来显著改善。',
                           tc: '200kW及以下場景，榮豐選擇組串式架構而非傳統集中式解決方案，在五個維度上帶來顯著改善。' },
   'tech.diff.col1':    { en: 'Dimension',                          zh: '维度',                         tc: '維度' },
   'tech.diff.col2':    { en: 'Centralised',                        zh: '集中式方案',                   tc: '集中式方案' },
-  'tech.diff.col3':    { en: 'YongFung String',                    zh: '荣丰组串式',                   tc: '榮豐組串式' },
+  'tech.diff.col3':    { en: 'RongFung String',                    zh: '荣丰组串式',                   tc: '榮豐組串式' },
   'tech.diff.r1.a':    { en: 'System efficiency',                  zh: '系统效率',                     tc: '系統效率' },
   'tech.diff.r1.b':    { en: 'Cluster imbalance reduces usable capacity',
                           zh: '簇间差异会降低可用容量',
@@ -421,12 +421,12 @@ const I18N = {
   'inv.hero.title':    { en: 'A policy-driven, multi-hundred-billion-RMB addressable market.',
                           zh: '政策驱动的千亿级可触达市场',
                           tc: '政策驅動的千億級可觸達市場' },
-  'inv.hero.lead':     { en: "This section outlines the market environment, policy framework and project track record that define YongFung's growth trajectory across the new-energy storage value chain.",
+  'inv.hero.lead':     { en: "This section outlines the market environment, policy framework and project track record that define RongFung's growth trajectory across the new-energy storage value chain.",
                           zh: '本章节介绍公司所处的市场环境、政策框架及项目业绩，展现荣丰数字能源在新型储能产业链中的增长轨迹。',
                           tc: '本章節介紹公司所處的市場環境、政策框架及專案業績，展現榮豐數字能源在新型儲能產業鏈中的增長軌跡。' },
 
   'inv.mkt.title':     { en: 'Addressable-Market Estimates',       zh: '可触达市场测算',               tc: '可觸達市場測算' },
-  'inv.mkt.desc':      { en: 'YongFung operates across four differentiated product lines with combined new-addition market size estimated in the hundreds of billions of RMB over the next 2–3 years.',
+  'inv.mkt.desc':      { en: 'RongFung operates across four differentiated product lines with combined new-addition market size estimated in the hundreds of billions of RMB over the next 2–3 years.',
                           zh: '荣丰在四条差异化产品线开展业务，未来2–3年新增市场规模合计以数百亿元人民币计。',
                           tc: '榮豐在四條差異化產品線開展業務，未來2–3年新增市場規模合計以數百億元人民幣計。' },
   'inv.mkt.1.t':       { en: 'PCS / Integrated Converter-Transformer',
@@ -540,7 +540,7 @@ const I18N = {
   'inv.contact.desc':  { en: 'For partnership and corporate enquiries, please contact our Investor Relations team. All information on this site is provided for general reference purposes.',
                           zh: '如需洽谈合作或联系公司，请通过下列信息联系投资者关系团队。本网站信息仅供一般参考用途。',
                           tc: '如需洽談合作或聯繫公司，請通過下列資訊聯繫投資者關係團隊。本網站資訊僅供一般參考用途。' },
-  'inv.contact.email': { en: 'Email · ir@yongfung-energy.com',     zh: '电邮 · ir@yongfung-energy.com',tc: '電郵 · ir@yongfung-energy.com' },
+  'inv.contact.email': { en: 'Email · ir@rongfung-energy.com',     zh: '电邮 · ir@rongfung-energy.com',tc: '電郵 · ir@rongfung-energy.com' },
   'inv.contact.addr':  { en: 'Longgang District, Shenzhen, Guangdong Province, PRC',
                           zh: '中国广东省深圳市龙岗区',
                           tc: '中國廣東省深圳市龍崗區' },
