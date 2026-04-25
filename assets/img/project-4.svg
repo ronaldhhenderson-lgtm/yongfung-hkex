@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-label="User-side peak-shaving project">
+  <rect width="480" height="240" fill="#F8F7F3"/>
+  <!-- urban skyline -->
+  <g fill="#0A1F3D" opacity="0.15">
+    <rect x="20" y="60" width="40" height="140"/>
+    <rect x="65" y="80" width="30" height="120"/>
+    <rect x="100" y="40" width="50" height="160"/>
+    <rect x="155" y="70" width="35" height="130"/>
+    <rect x="195" y="55" width="42" height="145"/>
+    <rect x="242" y="85" width="28" height="115"/>
+    <rect x="275" y="65" width="38" height="135"/>
+    <rect x="318" y="50" width="45" height="150"/>
+    <rect x="368" y="78" width="32" height="122"/>
+    <rect x="405" y="62" width="40" height="138"/>
+    <rect x="450" y="90" width="28" height="110"/>
+  </g>
+  <!-- window dots on tallest building -->
+  <g fill="#C9A961" opacity="0.7">
+    <rect x="105" y="55" width="3" height="3"/>
+    <rect x="115" y="55" width="3" height="3"/>
+    <rect x="125" y="55" width="3" height="3"/>
+    <rect x="135" y="55" width="3" height="3"/>
+    <rect x="105" y="68" width="3" height="3"/>
+    <rect x="125" y="68" width="3" height="3"/>
+    <rect x="135" y="68" width="3" height="3"/>
+    <rect x="115" y="80" width="3" height="3"/>
+    <rect x="125" y="80" width="3" height="3"/>
+    <rect x="105" y="92" width="3" height="3"/>
+    <rect x="115" y="92" width="3" height="3"/>
+    <rect x="135" y="92" width="3" height="3"/>
+    <rect x="325" y="55" width="3" height="3"/>
+    <rect x="335" y="55" width="3" height="3"/>
+    <rect x="345" y="55" width="3" height="3"/>
+    <rect x="325" y="70" width="3" height="3"/>
+    <rect x="345" y="70" width="3" height="3"/>
+  </g>
+  <line x1="0" y1="200" x2="480" y2="200" stroke="#0A1F3D" stroke-width="1.5" opacity="0.4"/>
+  <!-- building-side cabinet -->
+  <rect x="180" y="160" width="55" height="40" rx="2" fill="#1A3463" stroke="#0A1F3D" stroke-width="1.5"/>
+  <rect x="178" y="158" width="59" height="5" fill="#C9A961"/>
+  <g stroke="#C9A961" stroke-width="0.6" opacity="0.7">
+    <line x1="186" y1="172" x2="230" y2="172"/>
+    <line x1="186" y1="178" x2="230" y2="178"/>
+  </g>
+  <!-- demand chart -->
+  <g transform="translate(260 145)">
+    <line x1="0" y1="50" x2="120" y2="50" stroke="#0A1F3D" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#0A1F3D" stroke-width="1"/>
+    <!-- before peak -->
+    <path d="M0 30 L20 25 L40 8 L60 12 L80 30 L100 25 L120 28" stroke="#0A1F3D" stroke-width="1.2" fill="none" stroke-dasharray="3 2"/>
+    <!-- after shaving -->
+    <path d="M0 30 L20 25 L40 22 L60 22 L80 25 L100 25 L120 28" stroke="#C9A961" stroke-width="1.5" fill="none"/>
+    <text x="60" y="62" font-family="Inter, sans-serif" font-size="7" fill="#0A1F3D" text-anchor="middle" opacity="0.7">peak shaving · 28% reduction</text>
+  </g>
+  <!-- power figure -->
+  <text x="207" y="225" font-family="JetBrains Mono, monospace" font-size="9" fill="#0A1F3D" text-anchor="middle" font-weight="600">0.5 MW / 1.075 MWh</text>
+</svg>

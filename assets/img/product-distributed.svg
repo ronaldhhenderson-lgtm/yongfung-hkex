@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Distributed C&amp;I storage cabinet">
+  <defs>
+    <linearGradient id="dg1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1A3463"/>
+      <stop offset="1" stop-color="#0A1F3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="#F8F7F3"/>
+  <!-- ground -->
+  <line x1="20" y1="280" x2="460" y2="280" stroke="#0A1F3D" stroke-width="1.5" opacity="0.4"/>
+  <!-- shadow -->
+  <ellipse cx="240" cy="284" rx="170" ry="6" fill="#0A1F3D" opacity="0.15"/>
+  <!-- main outdoor cabinet body -->
+  <rect x="140" y="60" width="200" height="220" rx="4" fill="url(#dg1)" stroke="#0A1F3D" stroke-width="2"/>
+  <!-- gold roof accent -->
+  <rect x="138" y="58" width="204" height="10" fill="#C9A961"/>
+  <!-- top vent grille -->
+  <g stroke="#C9A961" stroke-width="1.2" opacity="0.85">
+    <line x1="160" y1="80" x2="320" y2="80"/>
+    <line x1="160" y1="86" x2="320" y2="86"/>
+    <line x1="160" y1="92" x2="320" y2="92"/>
+    <line x1="160" y1="98" x2="320" y2="98"/>
+  </g>
+  <!-- center display panel -->
+  <rect x="200" y="130" width="80" height="40" rx="2" fill="#0A1F3D" stroke="#C9A961" stroke-width="1.5"/>
+  <text x="240" y="148" font-family="JetBrains Mono, monospace" font-size="8" fill="#C9A961" text-anchor="middle">100 kW</text>
+  <text x="240" y="160" font-family="JetBrains Mono, monospace" font-size="8" fill="#C9A961" text-anchor="middle">215 kWh</text>
+  <!-- modular slots -->
+  <g stroke="#FFFFFF" stroke-width="0.8" opacity="0.3" fill="none">
+    <rect x="160" y="190" width="160" height="20" rx="2"/>
+    <rect x="160" y="215" width="160" height="20" rx="2"/>
+    <rect x="160" y="240" width="160" height="20" rx="2"/>
+  </g>
+  <!-- module indicators -->
+  <g fill="#C9A961">
+    <circle cx="170" cy="200" r="2"/>
+    <circle cx="170" cy="225" r="2"/>
+    <circle cx="170" cy="250" r="2"/>
+  </g>
+  <!-- side cooling fins -->
+  <g stroke="#C9A961" stroke-width="1" opacity="0.6">
+    <line x1="345" y1="100" x2="360" y2="100"/>
+    <line x1="345" y1="110" x2="360" y2="110"/>
+    <line x1="345" y1="120" x2="360" y2="120"/>
+    <line x1="345" y1="130" x2="360" y2="130"/>
+    <line x1="345" y1="140" x2="360" y2="140"/>
+  </g>
+  <!-- ground bolts -->
+  <g fill="#0A1F3D">
+    <circle cx="155" cy="278" r="3"/>
+    <circle cx="325" cy="278" r="3"/>
+  </g>
+  <!-- IP54 badge -->
+  <rect x="156" y="65" width="36" height="14" rx="2" fill="#C9A961" opacity="0.9"/>
+  <text x="174" y="75" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#0A1F3D" text-anchor="middle">IP54</text>
+  <!-- label -->
+  <text x="240" y="305" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#0A1F3D" text-anchor="middle" letter-spacing="2">DISTRIBUTED C&amp;I STORAGE</text>
+</svg>

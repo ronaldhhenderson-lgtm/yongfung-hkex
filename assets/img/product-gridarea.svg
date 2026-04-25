@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Grid-area storage and protocol converter">
+  <defs>
+    <linearGradient id="gg1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1A3463"/>
+      <stop offset="1" stop-color="#0A1F3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="#F8F7F3"/>
+  <!-- transformer pole left -->
+  <line x1="80" y1="60" x2="80" y2="270" stroke="#0A1F3D" stroke-width="2"/>
+  <line x1="65" y1="80" x2="95" y2="80" stroke="#0A1F3D" stroke-width="2"/>
+  <line x1="60" y1="100" x2="100" y2="100" stroke="#0A1F3D" stroke-width="2"/>
+  <circle cx="65" cy="80" r="3" fill="#C9A961"/>
+  <circle cx="95" cy="80" r="3" fill="#C9A961"/>
+  <circle cx="60" cy="100" r="3" fill="#C9A961"/>
+  <circle cx="100" cy="100" r="3" fill="#C9A961"/>
+  <!-- transmission lines -->
+  <g stroke="#C9A961" stroke-width="1.2" fill="none" opacity="0.7">
+    <path d="M65 80 Q200 110 330 130"/>
+    <path d="M95 80 Q200 115 330 135"/>
+    <path d="M60 100 Q200 130 330 150"/>
+    <path d="M100 100 Q200 135 330 155"/>
+  </g>
+  <!-- main grid-area cabinet -->
+  <rect x="320" y="115" width="120" height="160" rx="4" fill="url(#gg1)" stroke="#0A1F3D" stroke-width="2"/>
+  <rect x="318" y="113" width="124" height="8" fill="#C9A961"/>
+  <!-- screen/control display -->
+  <rect x="340" y="135" width="80" height="40" rx="2" fill="#0A1F3D" stroke="#C9A961" stroke-width="1.4"/>
+  <text x="380" y="151" font-family="JetBrains Mono, monospace" font-size="8" fill="#C9A961" text-anchor="middle">PCS+SVG+APF</text>
+  <text x="380" y="165" font-family="JetBrains Mono, monospace" font-size="8" fill="#C9A961" text-anchor="middle">200 kW</text>
+  <!-- modules below -->
+  <g stroke="#FFFFFF" stroke-width="0.8" opacity="0.3" fill="none">
+    <rect x="335" y="190" width="90" height="18" rx="2"/>
+    <rect x="335" y="212" width="90" height="18" rx="2"/>
+    <rect x="335" y="234" width="90" height="18" rx="2"/>
+  </g>
+  <g fill="#C9A961">
+    <circle cx="345" cy="199" r="2"/>
+    <circle cx="345" cy="221" r="2"/>
+    <circle cx="345" cy="243" r="2"/>
+  </g>
+  <!-- protocol arrows -->
+  <g stroke="#0A1F3D" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M150 200 L200 200 M200 200 L195 195 M200 200 L195 205"/>
+    <path d="M270 220 L220 220 M220 220 L225 215 M220 220 L225 225"/>
+  </g>
+  <text x="175" y="195" font-family="Inter, sans-serif" font-size="9" fill="#0A1F3D" text-anchor="middle" font-weight="600">698.45</text>
+  <text x="245" y="215" font-family="Inter, sans-serif" font-size="9" fill="#0A1F3D" text-anchor="middle" font-weight="600">Modbus</text>
+  <text x="210" y="245" font-family="Inter, sans-serif" font-size="8" fill="#0A1F3D" text-anchor="middle" opacity="0.6">protocol converter</text>
+  <!-- ground -->
+  <line x1="20" y1="275" x2="460" y2="275" stroke="#0A1F3D" stroke-width="1.5" opacity="0.4"/>
+  <!-- label -->
+  <text x="240" y="300" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#0A1F3D" text-anchor="middle" letter-spacing="2">GRID-AREA STORAGE &amp; PROTOCOL CONVERTERS</text>
+</svg>

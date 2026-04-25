@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-label="County-level distributed PV + storage project">
+  <rect width="480" height="240" fill="#F8F7F3"/>
+  <!-- rolling rural skyline -->
+  <path d="M0 180 Q80 150 160 170 T320 160 T480 175 L480 240 L0 240 Z" fill="#0A1F3D" opacity="0.12"/>
+  <!-- sun -->
+  <circle cx="100" cy="60" r="22" fill="#C9A961" opacity="0.85"/>
+  <g stroke="#C9A961" stroke-width="1.5" opacity="0.6">
+    <line x1="100" y1="20" x2="100" y2="30"/>
+    <line x1="100" y1="90" x2="100" y2="100"/>
+    <line x1="60" y1="60" x2="70" y2="60"/>
+    <line x1="130" y1="60" x2="140" y2="60"/>
+    <line x1="72" y1="32" x2="78" y2="38"/>
+    <line x1="122" y1="82" x2="128" y2="88"/>
+    <line x1="128" y1="32" x2="122" y2="38"/>
+    <line x1="78" y1="82" x2="72" y2="88"/>
+  </g>
+  <!-- rooftop PV arrays on small buildings -->
+  <g>
+    <!-- house 1 -->
+    <rect x="170" y="155" width="60" height="40" fill="#1A3463"/>
+    <polygon points="170,155 200,135 230,155" fill="#C9A961"/>
+    <g fill="#0A1F3D" stroke="#C9A961" stroke-width="0.5">
+      <rect x="173" y="138" width="25" height="15"/>
+    </g>
+    <!-- house 2 -->
+    <rect x="245" y="145" width="70" height="50" fill="#1A3463"/>
+    <polygon points="245,145 280,120 315,145" fill="#C9A961"/>
+    <g fill="#0A1F3D" stroke="#C9A961" stroke-width="0.5">
+      <rect x="249" y="123" width="32" height="20"/>
+    </g>
+    <!-- house 3 -->
+    <rect x="325" y="160" width="55" height="35" fill="#1A3463"/>
+    <polygon points="325,160 352,143 380,160" fill="#C9A961"/>
+    <g fill="#0A1F3D" stroke="#C9A961" stroke-width="0.5">
+      <rect x="328" y="146" width="22" height="13"/>
+    </g>
+  </g>
+  <!-- shared storage cabinet on right -->
+  <rect x="400" y="155" width="55" height="55" rx="3" fill="#0A1F3D" stroke="#C9A961" stroke-width="1.5"/>
+  <rect x="398" y="153" width="59" height="5" fill="#C9A961"/>
+  <g stroke="#C9A961" stroke-width="0.6" opacity="0.7">
+    <line x1="406" y1="167" x2="450" y2="167"/>
+    <line x1="406" y1="172" x2="450" y2="172"/>
+  </g>
+  <text x="427" y="200" font-family="JetBrains Mono, monospace" font-size="6" fill="#C9A961" text-anchor="middle">ESS</text>
+  <!-- transmission lines -->
+  <g stroke="#0A1F3D" stroke-width="0.8" opacity="0.5" fill="none">
+    <path d="M200 145 Q300 130 405 165"/>
+    <path d="M280 130 Q340 125 405 165"/>
+    <path d="M352 150 L405 165"/>
+  </g>
+</svg>

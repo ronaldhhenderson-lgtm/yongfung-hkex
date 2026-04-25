@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-label="Grid-side shared-storage station">
+  <rect width="480" height="240" fill="#F8F7F3"/>
+  <!-- mountain backdrop -->
+  <path d="M0 160 L70 100 L140 145 L220 80 L320 130 L400 95 L480 140 L480 240 L0 240 Z" fill="#0A1F3D" opacity="0.12"/>
+  <!-- substation lattice tower -->
+  <g stroke="#0A1F3D" stroke-width="1.4" fill="none">
+    <line x1="60" y1="60" x2="40" y2="180"/>
+    <line x1="60" y1="60" x2="80" y2="180"/>
+    <line x1="40" y1="180" x2="80" y2="180"/>
+    <line x1="50" y1="120" x2="70" y2="120"/>
+    <line x1="45" y1="150" x2="75" y2="150"/>
+    <line x1="48" y1="135" x2="72" y2="135"/>
+    <line x1="55" y1="105" x2="65" y2="105"/>
+    <!-- crossarms -->
+    <line x1="30" y1="80" x2="90" y2="80"/>
+    <line x1="25" y1="100" x2="95" y2="100"/>
+  </g>
+  <g fill="#C9A961">
+    <circle cx="30" cy="80" r="2.5"/>
+    <circle cx="60" cy="80" r="2.5"/>
+    <circle cx="90" cy="80" r="2.5"/>
+    <circle cx="25" cy="100" r="2.5"/>
+    <circle cx="60" cy="100" r="2.5"/>
+    <circle cx="95" cy="100" r="2.5"/>
+  </g>
+  <!-- power lines -->
+  <g stroke="#C9A961" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M30 80 Q200 110 380 90"/>
+    <path d="M60 80 Q200 115 380 100"/>
+    <path d="M90 80 Q200 120 380 110"/>
+    <path d="M25 100 Q200 130 380 120"/>
+    <path d="M60 100 Q200 135 380 130"/>
+    <path d="M95 100 Q200 140 380 140"/>
+  </g>
+  <!-- container row -->
+  <g>
+    <rect x="180" y="155" width="55" height="45" rx="2" fill="#1A3463" stroke="#0A1F3D" stroke-width="1.5"/>
+    <rect x="178" y="153" width="59" height="5" fill="#C9A961"/>
+    <rect x="240" y="155" width="55" height="45" rx="2" fill="#1A3463" stroke="#0A1F3D" stroke-width="1.5"/>
+    <rect x="238" y="153" width="59" height="5" fill="#C9A961"/>
+    <rect x="300" y="155" width="55" height="45" rx="2" fill="#1A3463" stroke="#0A1F3D" stroke-width="1.5"/>
+    <rect x="298" y="153" width="59" height="5" fill="#C9A961"/>
+    <rect x="360" y="155" width="55" height="45" rx="2" fill="#1A3463" stroke="#0A1F3D" stroke-width="1.5"/>
+    <rect x="358" y="153" width="59" height="5" fill="#C9A961"/>
+  </g>
+  <line x1="0" y1="200" x2="480" y2="200" stroke="#0A1F3D" stroke-width="1.5" opacity="0.4"/>
+  <!-- power figures -->
+  <text x="297" y="148" font-family="JetBrains Mono, monospace" font-size="9" fill="#0A1F3D" text-anchor="middle" font-weight="600">50 MW / 100 MWh · Shared</text>
+</svg>

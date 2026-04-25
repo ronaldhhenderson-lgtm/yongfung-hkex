@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Ruggedised portable storage unit">
+  <defs>
+    <linearGradient id="pg1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1A3463"/>
+      <stop offset="1" stop-color="#0A1F3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="320" fill="#F8F7F3"/>
+  <!-- ground line -->
+  <line x1="40" y1="270" x2="440" y2="270" stroke="#0A1F3D" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3"/>
+  <!-- main body -->
+  <rect x="160" y="80" width="160" height="180" rx="6" fill="url(#pg1)" stroke="#0A1F3D" stroke-width="2"/>
+  <!-- top handle -->
+  <path d="M210 70 q30 -25 60 0" stroke="#C9A961" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- vent grille top -->
+  <g stroke="#C9A961" stroke-width="1.4" opacity="0.85">
+    <line x1="180" y1="100" x2="300" y2="100"/>
+    <line x1="180" y1="106" x2="300" y2="106"/>
+    <line x1="180" y1="112" x2="300" y2="112"/>
+  </g>
+  <!-- screen/display -->
+  <rect x="190" y="130" width="100" height="30" rx="2" fill="#0A1F3D" stroke="#C9A961" stroke-width="1.5"/>
+  <text x="240" y="150" font-family="JetBrains Mono, monospace" font-size="10" fill="#C9A961" text-anchor="middle">SOC 92%</text>
+  <!-- side panel lines -->
+  <g stroke="#FFFFFF" stroke-width="0.8" opacity="0.25">
+    <line x1="170" y1="180" x2="310" y2="180"/>
+    <line x1="170" y1="200" x2="310" y2="200"/>
+    <line x1="170" y1="220" x2="310" y2="220"/>
+  </g>
+  <!-- output sockets -->
+  <circle cx="195" cy="245" r="6" fill="none" stroke="#C9A961" stroke-width="1.5"/>
+  <circle cx="220" cy="245" r="6" fill="none" stroke="#C9A961" stroke-width="1.5"/>
+  <circle cx="260" cy="245" r="6" fill="none" stroke="#C9A961" stroke-width="1.5"/>
+  <rect x="280" y="240" width="20" height="10" rx="1" fill="none" stroke="#C9A961" stroke-width="1.5"/>
+  <!-- foldable PV panel suggestion -->
+  <g transform="translate(60 130)" stroke="#0A1F3D" stroke-width="1.5" fill="none">
+    <rect x="0" y="0" width="60" height="90" fill="#1A3463" opacity="0.85"/>
+    <line x1="0" y1="30" x2="60" y2="30" stroke="#C9A961" opacity="0.4"/>
+    <line x1="0" y1="60" x2="60" y2="60" stroke="#C9A961" opacity="0.4"/>
+    <line x1="20" y1="0" x2="20" y2="90" stroke="#C9A961" opacity="0.4"/>
+    <line x1="40" y1="0" x2="40" y2="90" stroke="#C9A961" opacity="0.4"/>
+  </g>
+  <text x="90" y="240" font-family="Inter, sans-serif" font-size="10" fill="#0A1F3D" text-anchor="middle" opacity="0.6">PV input</text>
+  <!-- label -->
+  <text x="240" y="298" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#0A1F3D" text-anchor="middle" letter-spacing="2">PORTABLE STORAGE</text>
+</svg>
