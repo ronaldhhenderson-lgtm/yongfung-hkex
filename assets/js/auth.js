@@ -114,7 +114,7 @@
       var params = new URLSearchParams(window.location.search);
       var next = params.get('next') || 'index.html';
       // Strict sanitisation — only allow known site pages
-      var allowed = ['index.html','about.html','products.html','solutions.html','technology.html','investors.html'];
+      var allowed = ['index.html','about.html','products.html','solutions.html','technology.html','investors.html','product-portable-detail.html','product-distributed-detail.html','product-utility-detail.html','product-gridarea-detail.html'];
       var nextDecoded = decodeURIComponent(next).split('?')[0].split('#')[0];
       if (allowed.indexOf(nextDecoded) === -1) next = 'index.html';
       window.location.replace(next);
