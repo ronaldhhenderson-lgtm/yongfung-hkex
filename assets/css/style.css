@@ -1,7 +1,52 @@
 /* =================================================================
-   YongFung Digital Energy — HK Listing Corporate Site
-   HKEX Investor-Formal Design System
+   RongFung Digital Energy — Corporate Site
+   Investor-Formal Design System
    ================================================================= */
+
+/* Real RongFung logo (replaces the "R F" placeholder mark) */
+.brand-logo {
+  display: block;
+  height: 38px;
+  width: auto;
+  margin-right: 0.8rem;
+}
+.foot-brand-logo {
+  display: block;
+  height: 32px;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Per-language inline blocks (used on detail pages) */
+body.lang-en .l-zh, body.lang-en .l-tc { display: none !important; }
+body.lang-zh .l-en, body.lang-zh .l-tc { display: none !important; }
+body.lang-tc .l-en, body.lang-tc .l-zh { display: none !important; }
+
+/* Product hero illustrations + project case-study images */
+.product-hero-img,
+.project-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+  margin: 0 auto 1.4rem;
+  border: 1px solid var(--ink-200, #d0d0d0);
+  background: var(--paper, #F8F7F3);
+}
+.project-img {
+  margin: 0 0 1rem;
+  max-width: 100%;
+}
+.card .project-img {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  margin-top: -1.5rem;
+  width: calc(100% + 3rem);
+  max-width: none;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
 
 :root {
   /* Brand palette — HKEX prospectus-inspired */
